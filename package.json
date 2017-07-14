@@ -1,0 +1,38 @@
+{
+  "name": "boiler-room",
+  "version": "0.1.0",
+  "private": true,
+  "author": "John Kilpatrick",
+  "devDependencies": {
+    "nodemon": "*"
+  },
+  "dependencies": {
+    "apollo-client": "^1.8.0",
+    "apollo-test-utils": "^0.3.2",
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "body-parser": "^1.17.1",
+    "bootstrap": "3",
+    "cors": "^2.8.4",
+    "express": "^4.15.2",
+    "graphql": "^0.10.3",
+    "graphql-server-express": "^0.6.0",
+    "graphql-tag": "^2.4.2",
+    "graphql-tools": "^1.1.0",
+    "react": "^15.6.1",
+    "react-apollo": "^1.4.3",
+    "react-bootstrap": "^0.31.1",
+    "react-dom": "^15.6.1",
+    "react-easter-egg": "^0.1.1",
+    "react-scripts": "1.0.10",
+    "styled-components": "^2.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "server": "nodemon ./server/ --exec babel-node -e js",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
